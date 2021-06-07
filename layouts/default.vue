@@ -33,6 +33,13 @@
     </v-navigation-drawer>
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-spacer />
+      <v-btn icon>
+        <v-icon>mdi-plus</v-icon>
+      </v-btn>
+      <v-btn icon>
+        <v-icon>mdi-account</v-icon>
+      </v-btn>
     </v-app-bar>
     <v-main>
       <v-container>
