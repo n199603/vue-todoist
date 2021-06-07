@@ -10,7 +10,7 @@
 import { Vue, Component, Prop } from "nuxt-property-decorator";
 
 @Component
-export default class NextButton extends Vue {
+export default class ListTitle extends Vue {
   @Prop()
   text!: string;
 }
