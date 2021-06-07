@@ -2,7 +2,7 @@
   <v-row>
     <v-col>
       <div>
-        <list-title text="Inbox"></list-title>
+        <list-title text="Work"></list-title>
       </div>
     </v-col>
   </v-row>

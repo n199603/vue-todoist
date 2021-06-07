@@ -1,9 +1,19 @@
 <template>
   <v-row>
-    <v-col class="text-center">
+    <v-col>
       <div>
-        Today
+        <list-title text="Today"></list-title>
       </div>
     </v-col>
   </v-row>
 </template>
+
+<script>
+import ListTitle from "~/components/atom/ListTitle.vue";
+
+export default {
+  components: {
+    ListTitle
+  }
+};
+</script>

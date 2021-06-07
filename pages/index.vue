@@ -10,11 +10,7 @@
         </v-card-title>
         <v-card-actions>
           <v-spacer />
-          <v-btn
-            color="primary"
-            nuxt
-            to="/inbox"
-          >
+          <v-btn color="primary" nuxt to="/inbox">
             Continue
           </v-btn>
         </v-card-actions>
@@ -24,11 +20,11 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Logo from "~/components/Logo.vue";
 
 export default {
   components: {
-    Logo,
+    Logo
   }
-}
+};
 </script>
