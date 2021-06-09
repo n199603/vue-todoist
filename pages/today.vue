@@ -8,8 +8,8 @@
   </v-row>
 </template>
 
-<script>
-import ListTitle from "~/components/atom/ListTitle.vue";
+<script lang="ts">
+import ListTitle from "~/components/ListTitle.vue";
 
 export default {
   components: {

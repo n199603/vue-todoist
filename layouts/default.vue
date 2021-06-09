@@ -37,9 +37,7 @@
       <v-btn icon>
         <v-icon>mdi-plus</v-icon>
       </v-btn>
-      <v-btn icon>
-        <v-icon>mdi-account</v-icon>
-      </v-btn>
+      <user-avator />
     </v-app-bar>
     <v-main>
       <v-container>
@@ -49,8 +47,13 @@
   </v-app>
 </template>
 
-<script>
+<script lang="ts">
+import UserAvator from "~/components/UserAvator.vue";
+
 export default {
+  components: {
+    UserAvator
+  },
   data() {
     return {
       clipped: true,
